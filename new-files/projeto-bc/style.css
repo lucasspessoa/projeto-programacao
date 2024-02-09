@@ -15,6 +15,11 @@ h1{
     text-align: center;
 }
 
-section#tela-page{
-    margin: center;
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-options{
+    display: flex;
 }
