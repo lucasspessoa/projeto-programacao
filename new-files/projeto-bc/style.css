@@ -7,12 +7,21 @@ body{
 header{
     background-color: blue;
     color: white;
-    font: normal 12px sans-serif;
+    font: normal 12px serif;
     padding: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 h1{
     text-align: center;
+}
+
+section#image-principal{
+    padding: 20px;
 }
 
 .image{
@@ -20,6 +29,21 @@ h1{
     justify-content: center;
 }
 
+hr{
+    background-color: goldenrod;
+}
+
+section#nav-bar{
+    padding: 20px;
+}
+
 .nav-options{
     display: flex;
+    justify-content: center;
+}
+
+.measure{
+    padding: 0 50px;
+    font: bold 30px serif;
+    border-style: solid;
 }
