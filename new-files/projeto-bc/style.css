@@ -43,11 +43,21 @@ section#nav-bar{
 }
 
 .measure{
+    display: inline-block;
+    justify-content: center;
     text-align: center;
     height: 35px;
     width: 130px;
     padding: 0 60px;
     font: bold 30px serif;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.conteiner-text{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
     border-style: solid;
     border-radius: 5px;
 }

@@ -21,12 +21,17 @@
     </section>
     <hr>
     <section id="nav-bar">
-        <!--o conteúdo de cada índice aparecerá sempre que ocorrer o click-->
+        <!--o conteúdo respectivo de cada índice aparecerá na caixa abaixo sempre que ocorrer o click-->
         <div class="nav-options">
-            <div class="measure">Inflação</div>
-            <div class="measure">PIB</div>
-            <div class="measure">Câmbio</div>
-            <div class="measure">Taxa Selic</div>
+            <ul>
+                <li class="measure"><input type="radio" name="index" id="0-index" checked onclick="selecaoIndice()">Inflação</li>
+                <li class="measure"><input type="radio" name="index" id="1-index" onclick="selecaoIndice()">PIB</li>
+                <li class="measure"><input type="radio" name="index" id="2-index" onclick="selecaoIndice()">Câmbio</li>
+                <li class="measure"><input type="radio" name="index" id="3-index" onclick="selecaoIndice()">Selic</li>
+            </ul>
+        </div>
+        <div class="conteiner-text">
+            <h1>O índice de inflação deste ano veio abaixo do esperado para 2023</h1>
         </div>
     </section>
 </body>
