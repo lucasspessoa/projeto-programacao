@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header{
+    background-color: #19323c;
+    color: azure;
+    padding: 0.3em;
+    text-align: center;
+}
+
+.rotulo{
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.especial{
+    width: 350px;
+}
+
+h3{
+    padding-left: 8px;
+}
